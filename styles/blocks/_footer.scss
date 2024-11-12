@@ -1,0 +1,30 @@
+.footer {
+	max-width: 100%;
+	
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__title {
+		color: #272832;
+	}
+
+	&__list {
+		display: flex;
+		
+		@include mobile {
+			display: grid;
+			grid-template-columns: repeat(3,1fr);
+		}
+	}
+
+	&__item-link {
+		display: flex;
+		padding: 12px;
+
+		}
+	}
+
+

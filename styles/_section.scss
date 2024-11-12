@@ -1,0 +1,8 @@
+.section-top-margin {
+	margin-top: var(--section-margin-y);
+
+
+	@include mobile {
+		margin-top: 50px;
+	}
+}

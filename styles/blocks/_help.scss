@@ -1,0 +1,45 @@
+.help {
+	max-width: 100%;
+
+
+	&__inner {
+
+		display: flex;
+		justify-content: space-between;
+
+		@include desktop {
+			flex-direction: column;
+				justify-content: stretch;
+				align-items: center;
+				row-gap: 20px;
+		}
+	}
+	
+
+	&__content {
+		max-width: 640px;
+	}
+
+	&__title {
+		color: var(--color-gray);
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 18px;
+
+
+	}
+	
+		&__item {
+			display: flex;
+			align-items: center;
+			padding-left: 18px;
+			font-size: 13px;
+			background-color: var(--color-gray-alternate);
+			height: 44px;
+			text-transform: uppercase;
+			color: #666666;
+		}
+}
